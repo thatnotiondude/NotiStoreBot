@@ -1,5 +1,8 @@
 import os
 import requests
+from dotenv import load_dotenv
+
+load_dotenv()
 
 GUMROAD_API_URL = 'https://api.gumroad.com/v2/products'
 ACCESS_TOKEN = os.getenv('GUMROAD_ACCESS_TOKEN')
